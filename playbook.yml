@@ -11,4 +11,4 @@
       shell: docker pull ramrodwal/miniproject_calculator
 
     - name: running container
-      shell: docker run -it -d ramrodwal/miniproject_calculator /bin/bash
+      shell: docker run -it -d ramrodwal/miniproject_calculator
