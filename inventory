@@ -1,2 +1,2 @@
-[ubuntu18]
-172.17.0.2 ansible_user=ramrodwal
+[client1]
+172.16.137.43 ansible_ssh_user=ram ansible_ssh_pass=ram121 sudo=ram ansible_sudo_pass=ram121 
