@@ -8,6 +8,7 @@ public class Calculator {
     public Calculator() {
     }
     // https://my-deployment-ca5d14.kb.us-central1.gcp.cloud.es.io:9243/app/home#/
+    //https://b149c886b6ce44e783974cc60d72c0ff.us-central1.gcp.cloud.es.io:9243/app/discover#/?_g=(time:(from:'2023-03-18T09:29:56.983Z',to:'2023-03-18T09:30:28.595Z'))&_a=(columns:!(),filters:!(),index:d7750705-1b8c-4b0e-9e2e-465409921edc,interval:auto,query:(language:kuery,query:''),sort:!(!('@timestamp',desc)))
     public static double squareroot(double x){
                     logger.info("[SQUARE ROOT] - " + x);
                     double result = Math.sqrt(x);
