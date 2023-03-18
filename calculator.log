@@ -1,0 +1,8 @@
+2023-03-18 14:59:56.983 [main] INFO  com.miniproject.Calculator - [LOG] - 34.0
+2023-03-18 14:59:56.986 [main] INFO  com.miniproject.Calculator - [RESULT - LOG] - 3.5263605246161616
+2023-03-18 15:00:18.340 [main] INFO  com.miniproject.Calculator - [FACTORIAL] - 4
+2023-03-18 15:00:18.343 [main] INFO  com.miniproject.Calculator - [RESULT - FACTORIAL] - 24
+2023-03-18 15:00:21.396 [main] INFO  com.miniproject.Calculator - [SQUARE ROOT] - 16.0
+2023-03-18 15:00:21.396 [main] INFO  com.miniproject.Calculator - [RESULT - SQUARE ROOT] - 4.0
+2023-03-18 15:00:28.595 [main] INFO  com.miniproject.Calculator - [TWOPOWER] - 3.0AND2.0
+2023-03-18 15:00:28.595 [main] INFO  com.miniproject.Calculator - [RESULT - TWOPOWER] - 9.0
