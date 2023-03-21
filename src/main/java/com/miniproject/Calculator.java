@@ -37,9 +37,9 @@ public class Calculator {
         return power;
     }
     
-    public static void main(String[] args) throws InterruptedException{
+    public static void main(String[] args){
         
-        Thread.sleep(1000);
+        
 
         Scanner input = new Scanner(System.in);
         System.out.println("Welcome to the calculator program!");
