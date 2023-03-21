@@ -39,6 +39,12 @@ public class Calculator {
     
     public static void main(String[] args) {
         
+        try {
+            Thread.sleep(1000);
+        } catch (InterruptedException e) {
+            // TODO Auto-generated catch block
+            e.printStackTrace();
+        }
         Scanner input = new Scanner(System.in);
         System.out.println("Welcome to the calculator program!");
 
