@@ -37,14 +37,10 @@ public class Calculator {
         return power;
     }
     
-    public static void main(String[] args) {
+    public static void main(String[] args) throws InterruptedException {
         
-        try {
-            Thread.sleep(1000);
-        } catch (InterruptedException e) {
-            // TODO Auto-generated catch block
-            e.printStackTrace();
-        }
+        Thread.sleep(10000);
+        
         Scanner input = new Scanner(System.in);
         System.out.println("Welcome to the calculator program!");
 
