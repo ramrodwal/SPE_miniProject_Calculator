@@ -84,6 +84,7 @@ public class Calculator {
 
                 case 5:
                     System.out.println("Thank you for using the calculator program!");
+                    System.out.println("============================================");
                     input.close();
                     return;
 
