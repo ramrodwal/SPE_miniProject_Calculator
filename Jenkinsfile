@@ -40,7 +40,6 @@ pipeline {
         }
         stage('Deploy and Run Image'){
             steps {
-                sh 'echo hello calculator'
                 ansiblePlaybook becomeUser: null, colorized: true, disableHostKeyChecking: true, installation: 'Ansible', inventory: 'inventory', playbook: 'playbook.yml', sudoUser: null
             }
         }
