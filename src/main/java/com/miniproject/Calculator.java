@@ -59,7 +59,7 @@ public class Calculator {
 
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
-        input.nextLine();
+        // input.nextLine();
         System.out.println("Welcome to the calculator program!");
 
         while (true) {
