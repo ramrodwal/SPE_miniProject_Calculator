@@ -13,7 +13,7 @@ public class Calculator {
     private static final Logger logger = LogManager.getLogger(Calculator.class);
     public Calculator() {
     }
-    // https://my-deployment-ca5d14.kb.us-central1.gcp.cloud.es.io:9243/app/home#/
+
     public static double squareroot(double x){
         if(x<0)
             return -1;
@@ -33,7 +33,7 @@ public class Calculator {
             fact *= i;
         }
         logger.info("[RESULT - FACTORIAL] - " + fact);
-        return fact;
+        return fact; 
     }
     public static double log(double x){
         if(x<0)
