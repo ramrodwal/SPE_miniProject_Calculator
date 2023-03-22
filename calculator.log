@@ -6,3 +6,75 @@
 2023-03-18 15:00:21.396 [main] INFO  com.miniproject.Calculator - [RESULT - SQUARE ROOT] - 4.0
 2023-03-18 15:00:28.595 [main] INFO  com.miniproject.Calculator - [TWOPOWER] - 3.0AND2.0
 2023-03-18 15:00:28.595 [main] INFO  com.miniproject.Calculator - [RESULT - TWOPOWER] - 9.0
+2023-03-22 11:23:49.292 [main] INFO  com.miniproject.Calculator - [LOG] - -6.0
+2023-03-22 11:23:49.294 [main] INFO  com.miniproject.Calculator - [RESULT - LOG] - NaN
+2023-03-22 11:23:49.298 [main] INFO  com.miniproject.Calculator - [LOG] - 10.0
+2023-03-22 11:23:49.298 [main] INFO  com.miniproject.Calculator - [RESULT - LOG] - 2.302585092994046
+2023-03-22 11:23:49.298 [main] INFO  com.miniproject.Calculator - [TWOPOWER] - 2.0AND3.0
+2023-03-22 11:23:49.298 [main] INFO  com.miniproject.Calculator - [RESULT - TWOPOWER] - 8.0
+2023-03-22 11:23:49.299 [main] INFO  com.miniproject.Calculator - [TWOPOWER] - -2.0AND3.0
+2023-03-22 11:23:49.299 [main] INFO  com.miniproject.Calculator - [RESULT - TWOPOWER] - -8.0
+2023-03-22 11:23:49.299 [main] INFO  com.miniproject.Calculator - [TWOPOWER] - -0.5AND-3.0
+2023-03-22 11:23:49.299 [main] INFO  com.miniproject.Calculator - [RESULT - TWOPOWER] - -8.0
+2023-03-22 11:23:49.300 [main] INFO  com.miniproject.Calculator - [SQUARE ROOT] - -6.0
+2023-03-22 11:23:49.300 [main] INFO  com.miniproject.Calculator - [RESULT - SQUARE ROOT] - NaN
+2023-03-22 11:23:49.301 [main] INFO  com.miniproject.Calculator - [SQUARE ROOT] - 25.0
+2023-03-22 11:23:49.301 [main] INFO  com.miniproject.Calculator - [RESULT - SQUARE ROOT] - 5.0
+2023-03-22 11:23:49.302 [main] INFO  com.miniproject.Calculator - [FACTORIAL] - -6
+2023-03-22 11:23:49.302 [main] INFO  com.miniproject.Calculator - [RESULT - FACTORIAL] - 1
+2023-03-22 11:23:49.303 [main] INFO  com.miniproject.Calculator - [FACTORIAL] - 5
+2023-03-22 11:23:49.303 [main] INFO  com.miniproject.Calculator - [RESULT - FACTORIAL] - 120
+2023-03-22 11:27:42.073 [main] INFO  com.miniproject.Calculator - [LOG] - -6.0
+2023-03-22 11:27:42.075 [main] INFO  com.miniproject.Calculator - [RESULT - LOG] - NaN
+2023-03-22 11:27:42.078 [main] INFO  com.miniproject.Calculator - [LOG] - 10.0
+2023-03-22 11:27:42.078 [main] INFO  com.miniproject.Calculator - [RESULT - LOG] - 2.302585092994046
+2023-03-22 11:27:42.079 [main] INFO  com.miniproject.Calculator - [TWOPOWER] - 2.0AND3.0
+2023-03-22 11:27:42.079 [main] INFO  com.miniproject.Calculator - [RESULT - TWOPOWER] - 8.0
+2023-03-22 11:27:42.080 [main] INFO  com.miniproject.Calculator - [TWOPOWER] - -2.0AND3.0
+2023-03-22 11:27:42.080 [main] INFO  com.miniproject.Calculator - [RESULT - TWOPOWER] - -8.0
+2023-03-22 11:27:42.081 [main] INFO  com.miniproject.Calculator - [TWOPOWER] - -0.5AND-3.0
+2023-03-22 11:27:42.081 [main] INFO  com.miniproject.Calculator - [RESULT - TWOPOWER] - -8.0
+2023-03-22 11:27:42.082 [main] INFO  com.miniproject.Calculator - [SQUARE ROOT] - -6.0
+2023-03-22 11:27:42.083 [main] INFO  com.miniproject.Calculator - [RESULT - SQUARE ROOT] - NaN
+2023-03-22 11:27:42.084 [main] INFO  com.miniproject.Calculator - [SQUARE ROOT] - 25.0
+2023-03-22 11:27:42.084 [main] INFO  com.miniproject.Calculator - [RESULT - SQUARE ROOT] - 5.0
+2023-03-22 11:27:42.086 [main] INFO  com.miniproject.Calculator - [FACTORIAL] - -6
+2023-03-22 11:27:42.086 [main] INFO  com.miniproject.Calculator - [RESULT - FACTORIAL] - 1
+2023-03-22 11:27:42.087 [main] INFO  com.miniproject.Calculator - [FACTORIAL] - 5
+2023-03-22 11:27:42.087 [main] INFO  com.miniproject.Calculator - [RESULT - FACTORIAL] - 120
+2023-03-22 11:28:02.948 [main] INFO  com.miniproject.Calculator - [LOG] - -6.0
+2023-03-22 11:28:02.950 [main] INFO  com.miniproject.Calculator - [RESULT - LOG] - NaN
+2023-03-22 11:28:02.953 [main] INFO  com.miniproject.Calculator - [LOG] - 10.0
+2023-03-22 11:28:02.953 [main] INFO  com.miniproject.Calculator - [RESULT - LOG] - 2.302585092994046
+2023-03-22 11:28:02.954 [main] INFO  com.miniproject.Calculator - [TWOPOWER] - 2.0AND3.0
+2023-03-22 11:28:02.954 [main] INFO  com.miniproject.Calculator - [RESULT - TWOPOWER] - 8.0
+2023-03-22 11:28:02.955 [main] INFO  com.miniproject.Calculator - [TWOPOWER] - -2.0AND3.0
+2023-03-22 11:28:02.955 [main] INFO  com.miniproject.Calculator - [RESULT - TWOPOWER] - -8.0
+2023-03-22 11:28:02.955 [main] INFO  com.miniproject.Calculator - [TWOPOWER] - -0.5AND-3.0
+2023-03-22 11:28:02.955 [main] INFO  com.miniproject.Calculator - [RESULT - TWOPOWER] - -8.0
+2023-03-22 11:28:02.956 [main] INFO  com.miniproject.Calculator - [SQUARE ROOT] - -6.0
+2023-03-22 11:28:02.956 [main] INFO  com.miniproject.Calculator - [RESULT - SQUARE ROOT] - NaN
+2023-03-22 11:28:02.957 [main] INFO  com.miniproject.Calculator - [SQUARE ROOT] - 25.0
+2023-03-22 11:28:02.957 [main] INFO  com.miniproject.Calculator - [RESULT - SQUARE ROOT] - 5.0
+2023-03-22 11:28:02.958 [main] INFO  com.miniproject.Calculator - [FACTORIAL] - -6
+2023-03-22 11:28:02.958 [main] INFO  com.miniproject.Calculator - [RESULT - FACTORIAL] - 1
+2023-03-22 11:28:02.959 [main] INFO  com.miniproject.Calculator - [FACTORIAL] - 5
+2023-03-22 11:28:02.959 [main] INFO  com.miniproject.Calculator - [RESULT - FACTORIAL] - 120
+2023-03-22 11:28:11.907 [main] INFO  com.miniproject.Calculator - [LOG] - -6.0
+2023-03-22 11:28:11.909 [main] INFO  com.miniproject.Calculator - [RESULT - LOG] - NaN
+2023-03-22 11:28:11.911 [main] INFO  com.miniproject.Calculator - [LOG] - 10.0
+2023-03-22 11:28:11.912 [main] INFO  com.miniproject.Calculator - [RESULT - LOG] - 2.302585092994046
+2023-03-22 11:28:11.912 [main] INFO  com.miniproject.Calculator - [TWOPOWER] - 2.0AND3.0
+2023-03-22 11:28:11.913 [main] INFO  com.miniproject.Calculator - [RESULT - TWOPOWER] - 8.0
+2023-03-22 11:28:11.913 [main] INFO  com.miniproject.Calculator - [TWOPOWER] - -2.0AND3.0
+2023-03-22 11:28:11.913 [main] INFO  com.miniproject.Calculator - [RESULT - TWOPOWER] - -8.0
+2023-03-22 11:28:11.914 [main] INFO  com.miniproject.Calculator - [TWOPOWER] - -0.5AND-3.0
+2023-03-22 11:28:11.914 [main] INFO  com.miniproject.Calculator - [RESULT - TWOPOWER] - -8.0
+2023-03-22 11:28:11.915 [main] INFO  com.miniproject.Calculator - [SQUARE ROOT] - -6.0
+2023-03-22 11:28:11.915 [main] INFO  com.miniproject.Calculator - [RESULT - SQUARE ROOT] - NaN
+2023-03-22 11:28:11.916 [main] INFO  com.miniproject.Calculator - [SQUARE ROOT] - 25.0
+2023-03-22 11:28:11.916 [main] INFO  com.miniproject.Calculator - [RESULT - SQUARE ROOT] - 5.0
+2023-03-22 11:28:11.917 [main] INFO  com.miniproject.Calculator - [FACTORIAL] - -6
+2023-03-22 11:28:11.917 [main] INFO  com.miniproject.Calculator - [RESULT - FACTORIAL] - 1
+2023-03-22 11:28:11.918 [main] INFO  com.miniproject.Calculator - [FACTORIAL] - 5
+2023-03-22 11:28:11.918 [main] INFO  com.miniproject.Calculator - [RESULT - FACTORIAL] - 120
