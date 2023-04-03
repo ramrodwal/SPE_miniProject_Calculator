@@ -11,8 +11,7 @@ pipeline {
                 // Get code from a GitHub repository
                 // Make sure to add your own git url and credentialsId
 				git url: 'https://github.com/ramrodwal/SPE_miniProject_Calculator.git',
-				branch: 'master',
-                credentialsId: 'GitCredential'
+				branch: 'master'
             }
         }
         stage('Maven Build') {
