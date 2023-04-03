@@ -4,37 +4,60 @@ import org.apache.logging.log4j.Logger;
 
 import java.util.Scanner;
 
+//import org.apache.logging.log4j.LogManager;
+//import org.apache.logging.log4j.Logger;
+
+
 public class Calculator {
     //object creation
     private static final Logger logger = LogManager.getLogger(Calculator.class);
     public Calculator() {
     }
-
+    // https://my-deployment-ca5d14.kb.us-central1.gcp.cloud.es.io:9243/app/home#/
     public static double squareroot(double x){
-        if(x<0)
-            return -1;
         //before function run - logs
         logger.info("[SQUARE ROOT] - " + x);
+        if(x<0) {
+            logger.info("Error - Invalid input");
+            return -1;
+        }
         double result = Math.sqrt(x);
         //after function run -- logs
         logger.info("[RESULT - SQUARE ROOT] - " + result);
         return result;
     }
+
     public static long factorial(int x){
-        if(x<0)
-            return -1;
+
         logger.info("[FACTORIAL] - " + x);
+        if(x<0) {
+            logger.info("Error - Invalid input");
+            return -1;
+        }
+        if(x>=20) {
+            logger.info("Error - Invalid input");
+            return 0;
+        }
+
+        //comment
         long fact = 1;
         for (int i = 1; i <= x; i++) {
             fact *= i;
         }
         logger.info("[RESULT - FACTORIAL] - " + fact);
-        return fact; 
+        return fact;
     }
     public static double log(double x){
-        if(x<0)
-            return -1;
+
         logger.info("[LOG] - " + x);
+        if(x<0) {
+            logger.info("Error - Invalid input");
+            return -1;
+        }
+        if(x==0) {
+            logger.info("Error - Invalid input");
+            return 0;
+        }
         double anslog = Math.log(x);
         logger.info("[RESULT - LOG] - " + anslog);
         return anslog;
@@ -75,20 +98,40 @@ public class Calculator {
                     System.out.print("Enter a number to find its square root: ");
                     double x = input.nextDouble();
                     double result=squareroot(x);
+                    if(result==-1){
+                        System.out.println("A number can not be negative");
+                        break;
+                    }
                     System.out.printf("The square root of %.2f is %.2f%n", x, result);
                     break;
 
                 case 2:
-                    System.out.print("Enter a non-negative integer to find its factorial: ");
+                    System.out.print("Enter a integer to find its factorial: ");
                     int n = input.nextInt();
                     long fact=factorial(n);
+                    if(fact==-1){
+                        System.out.println("A number can not be negative");
+                        break;
+                    }
+                    if(fact==0){
+                        System.out.println("PLease enter a number less than 20");
+                        break;
+                    }
                     System.out.printf("The factorial of %d is %d%n", n, fact);
                     break;
 
                 case 3:
-                    System.out.print("Enter a positive number to find its natural logarithm: ");
+                    System.out.print("Enter a number to find its natural logarithm: ");
                     double num = input.nextDouble();
                     double ans=log(num);
+                    if(ans==0){
+                        System.out.println("A number can not be zero");
+                        break;
+                    }
+                    if(ans==-1){
+                        System.out.println("A number can not be negative");
+                        break;
+                    }
                     System.out.printf("The natural logarithm of %.2f is %.2f%n", num, ans);
                     break;
 
@@ -113,6 +156,7 @@ public class Calculator {
                     System.out.println("--------------------------------------------");
                     System.out.println("--------------------------------------------");
                     System.out.println("--------------------------------------------");
+
                     input.close();
                     return;
 
